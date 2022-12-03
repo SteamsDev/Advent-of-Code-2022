@@ -8,9 +8,11 @@ namespace AdventOfCode2022
     {
         public static void Main(string[] args)
         {
-            Day1.Run("input1.txt");
+            Day1.Run("input1");
             Console.WriteLine();
-            Day2.Run("input2.txt");
+            Day2.Run("input2");
+            Console.WriteLine();
+            Day3.Run("input3");
         }
     }
 }
