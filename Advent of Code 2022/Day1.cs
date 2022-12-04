@@ -23,7 +23,6 @@ public class Day1
             }
             catch (FormatException e)
             {
-                Console.WriteLine("Newline reached");
                 if (maxValue < sumOfValues)
                 {
                     topThreeValues[2] = topThreeValues[1];
